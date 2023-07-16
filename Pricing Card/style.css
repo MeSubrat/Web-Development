@@ -12,27 +12,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .card{
-    height: 500px;
+    height: 450px;
     width: 400px;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
-    flex-direction: row;
-    /* align-items: center; */
-    justify-content: center;
-    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding-top: 40px;
+    gap: 20px;
     
 }
 .category{
     height: 80px;
-    width: 350px;
+    width: 330px;
     /* background-color: red; */
     border: 1px solid black;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    justify-content: center;
     align-items: center;
 }
 #button1{
@@ -61,7 +64,60 @@
     height: 80px;
     width: 400px;
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: center;
+    align-items: center;
+}
+.iconSetContainer{
+    height: 100%;
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+}
+.iconDetails{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-end; */
+    align-items: flex-start;
+    gap: 15px;
+}
+.iconDetails p{
+    font-weight: 50;
+}
+.iconDetails h2{
+    font-weight: 600;
+}
+.iconPrice{
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 9px;
+}
+.priceInformation{
+    height: 80px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    font-weight: 700;
+}
+.cartButton{
+    height: 80px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cartButton button{
+    border: none;
+    height: 50%;
+    width: 85%;
+    background-color: rgb(74, 26, 185);
+    color: white;
+    border-radius: 40px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
