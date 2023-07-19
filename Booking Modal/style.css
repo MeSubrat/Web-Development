@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #EBEBF3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 400px;
+    width: 280px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.topBox{
+    height: 40%;
+    width: 100%;
+    background-color: #402349;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #EBEBF3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 30px;
+    padding-bottom: 60px;
+    gap: 50px;
+}
+.topBox p{
+    height: 30px;
+    width: 170px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.topBox i{
+    position: relative;
+    top: 50px;
+    left: 225px;
+    color: #7e5d88;
+    background-color: #350643;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.option{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.option label{
+    padding-right: 60px;
+    padding-bottom: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.option input[type="radio"]{
+    /* position: relative;
+    bottom: 10px; */
+    height: 16px;
+    width: 16px;
+    background-color: #402349;
+    appearance: none;
+    border:2px solid white;
+    border-radius: 50%;
+    transition: 0.5 all linear;
+    
+}
+.option input[type="radio"]:checked{
+    background-color: #7e5d88;
+    cursor: pointer;
+    /* border: 5px solid #EBEBF3; */
+}
+.bottomBox{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+.bottomHeading{
+    position: relative;
+    left: 10px;
+}
+.bottomHeading p{
+    font-weight: bold;
+}
+.party{
+    display: flex;
+    height: 90px;
+    /* width: 33%; */
+    justify-content: space-evenly;
+}
+.two{
+    height: 85px;
+    width: 70px;
+    border: 1px solid black;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.two p{
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding-left: 10px;
+    position: relative;
+    bottom: 10px;
+}
+.userIcon2{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.four{
+    height: 85px;
+    width: 70px;
+    border: 1px solid black;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.four p{
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding-left: 10px;
+    position: relative;
+    bottom: 10px;
+}
+.userIcon4{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 5px;
+}
+.six{
+    height: 85px;
+    width: 70px;
+    border: 1px solid black;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #350643;
+}
+.six p{
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding-left: 10px;
+    position: relative;
+    bottom: 22px;
+    color: #EBEBF3;
+}
+.userIcon6{
+    height: 100%;
+    border-radius: 5px;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 10px;
+    gap: 5px;
+    color: #EBEBF3;
+}
+.bottomBox button{
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #EBEBF3;
+    background-color: #c7358d;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.bottomBox button:hover{
+    background-color: #945f7f;
+    cursor: pointer;
+}
+.bottomBox button:active{
+    background-color: #ca82d3;
+}
